@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html >
+<head>  
+    <title>Document</title>
+    <style>
+        .seluru{
+            position: relative;
+            bottom: -40px;
+        }
+        .colom1{
+            position: absolute;
+            top: -3px
+        }
+        .colom2{
+            position: relative;
+            bottom: 4px;
+            left: 4%;
+        }
+        .colom3{
+            position: relative;
+            bottom: -8px;
+            left: 2%;
+        }
+        .colom4{
+            position: relative;
+            bottom: -7px;
+            left: 2.2%;
+        }
+        .colom5{
+            position: relative;
+            bottom: -12px;
+            left: 2.2%;
+
+        }
+        .colom6{
+            position: relative;
+            /* bottom: -12px; */
+            left: 2%;
+
+        }
+        .colom7{
+            position: relative;
+            bottom: -12px;
+            left: 2.7%;
+
+        }
+        .colom8{
+            position: relative;
+            bottom: -12px;
+            left: 2.2%;
+
+        }
+        .colom9{
+            position: relative;
+            bottom: -22px;
+            left: 7%;
+
+        }
+        
+    </style>
+</head>
+<body>
+<div class="seluru">
+    <form action="biodata.php" method="post">
+       <div class="colom1">
+        <label for="fname">FULL NAME :</label>
+        <input type="text" id="fname" name="fname" >
+    </div><br><br>
+    <div class="colom2">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <div class="colom3">
+        <label for="fname">Username :</label>
+        <input type="text" id="fname" name="fname" >
+    </div><br>
+    <div class="colom4">
+        <label for="pwd">Password :</label>
+        <input type="password" id="pwd" name="pwd" >
+    </div><br>
+    <div class="colom5">
+        
+        <input type="radio" id="pria" name="pgr" >
+        <label for="gdr">Pria</label>
+        <input type="radio" id="wanita" name="pgr">
+        <label for="gdr">Wanita</label>
+    </div><br>
+    <div class="colom6"><br>
+        <label for="matkul">AGAMA</label>
+        <select id="matkul" name="matkul">
+            <option value="web1">Kristen</option>
+            <option value="pbo">Islam</option>
+            <option value="std">Bundha</option>
+            <option value="std">Hindu</option>
+        </select>
+    </div><br>
+    <div class="colom7">
+            <label for="comentar">Address</label>
+            <textarea name="comrntar" id="comentar" cols="30" rows="10"></textarea>
+    </div><br>
+    <div class="colom8">
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="catur">
+        <label for="vehicle1">Catur</label>
+        <input type="checkbox" name="vehicle2" id="vehicle1" value="badminton">
+        <label for="vehicle2">Bad minton</label>
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="futsal">
+        <label for="vehicle3">Futsal</label>
+    </div>
+    <div class="colom9">
+        <input type="submit" value="save">
+    </div>
+    </form>
+</div>   
+</body>
+</html>

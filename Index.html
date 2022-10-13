@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .heder{
+            /* position: relative; */
+            /* border: 1px solid blue; */
+            /* background-color:white; */
+            text-align: left;
+            margin-right: -9px;
+            /* margin-left: -9px; */
+            margin-top: -56px;
+            /* padding-bottom: %; */
+            /* margin-bottom: 300px; */
+            /* padding:3px 3px 3px 3px; */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+           
+        }
+        .disain{
+            /* position: relative; */
+            padding: 60px 10px 60px 10px;
+            bottom: 30px;
+            text-align: left;
+            
+        }
+       
+        .turunan{
+            /* position: relative; */
+            display: inline-block;
+            padding-top: 10px;
+        }
+        .turunancon{
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            z-index: 1;
+
+        }
+        .turunancon li{
+            text-decoration: none;
+            padding: 12px 16px;
+            display: block;
+            color: white;
+            padding: 12px 16px;
+            background-color: rgb(255, 102, 0) ;
+
+        }
+        .turunan :hover .turunancon{
+            display: block     ;
+        }
+       
+        .turunan :hover .disain{
+            background-color: rgb(255, 81, 0);
+        }
+        .disain2{
+            /* position: relative; */
+            padding: 60px 20px 60px 20px;
+            bottom: 30px;
+        }
+       
+        .turunan2{
+            position: relative;
+            display: inline-block;
+            padding-top: 10px;
+        }
+        .turunancon2{
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            z-index: 1;
+
+
+        }
+        .turunancon2 li{
+            text-decoration: none;
+            padding: 12px 16px;
+            display: block;
+            color: white;
+            padding: 12px 16px;
+            background-color: rgb(255, 102, 0) ;
+
+        }
+        .turunan2 :hover .turunancon2{
+            display: block  ;
+        }
+       
+        .turunan2 :hover .disain2{
+            background-color: rgb(255, 81, 0);
+        }
+        .disain3{
+            /* position: relative; */
+            padding: 60px 20px 60px 20px;
+            bottom: 30px;
+        }
+       
+        .turunan3{
+            position: relative;
+            display: inline-block;
+            padding-top: 10px;
+            z-index: 1;
+
+        }
+        .turunancon3{
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            
+
+        }
+        .turunancon3 li{
+            text-decoration: none;
+            padding: 12px 16px;
+            display: block;
+            color: white;
+            padding: 12px 16px;
+            background-color: rgb(255, 102, 0) ;
+
+        }
+        .turunan3 :hover .turunancon3{
+            display: block  ;
+        }
+       
+        .turunan3 :hover .disain3{
+            background-color: rgb(255, 81, 0);
+        }
+        .disain4{
+            /* position: relative; */
+            padding: 60px 20px 60px 20px;
+            bottom: 30px;
+        }
+       
+        .turunan4{
+            position: relative;
+            display: inline-block;
+            padding-top: 10px;
+        }
+        .turunancon4{
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            
+
+        }
+        .turunancon4 li{
+            text-decoration: none;
+            padding: 12px 16px;
+            display: block;
+            color: white;
+            padding: 12px 16px;
+            background-color: rgb(255, 102, 0) ;
+
+        }
+        .turunan4 :hover .turunancon4{
+            display: block  ;
+        }
+        
+        .turunan4 :hover .disain4{
+            background-color: rgb(255, 81, 0);
+        }
+       
+        .turunan5{
+            position: relative;
+            display: inline-block;
+            padding-top: 50px;
+            float: left;
+            padding-left: 5%; 
+            
+        }
+        .turunan6{
+            position: relative;
+            display: inline-block;
+            padding-top: 70px;
+            padding-right: 10%;
+            float: right;
+            
+        }
+        .turunan7{
+            position: relative;
+            display: inline-block;
+            padding-right: 3%;
+            padding-top: 80px;
+            float: right;
+            
+        }
+        /* conten pertama */
+        .gambar{
+            position: absolute;
+            top:21%;
+            z-index: -1;
+            margin-left: -57.8px;
+            /* margin-right: 10px; */
+        }
+        .kalimat1{
+            position: relative;
+            padding-bottom: -200px;
+            padding-left: 5%;
+            color:darkblue;
+            font-size: 25px;
+            
+
+        }
+        .kalimat2{
+            position: relative;
+            padding-top: 1%;
+            padding-left: 5%;
+            color:darkorange;
+            font-size: 23px;
+        }
+        .kalimat3{
+            /* border: 3px solid red; */
+            display: block;
+            font-size: 20px;
+            margin-right: 60%;
+            margin-left: 5%;
+        
+        }
+        .kalimat4{
+            position: relative;
+            font-size: 900%;
+            color: darkorange;
+            margin-left: 5%;
+            
+            
+        }
+        .gambar1{
+            border-right: 1px solid #a6a6a6;
+            margin-right: 74%;
+            color: darkorange;
+            font-size: 40px;
+            margin-left: 5%;
+           
+            
+
+        }
+        .tulis:hover{
+            text-decoration: underline;
+        }
+        .tulis2{
+            color: black;
+            font-size: 20px;
+        }
+        /* css conten ke dua */
+        .gambar2{
+            
+            float:right;
+            margin-top: -50%;
+            width: 72%
+            
+            
+            
+        }
+        .gambarII{
+            border-right: 1px solid  #a6a6a6;
+            margin-right: 70%;
+            padding-bottom: 24%;
+           
+        }
+        .tulisatas{
+            border-right: 1px solid #a6a6a6;
+            margin-right: 70%;
+            margin-top: -8%;
+        }
+        .tulisatas2{
+            font-size: 40px;
+            color: darkorange;
+        }
+        #tulis3:hover{
+            text-decoration: underline;
+
+        }
+        .gambar3{
+            float:right;
+            margin-top: -55%;
+            width: 48%;
+            color: darkorange;
+            font-size: 40px;
+        }
+        .tulis3{
+            /* border-right: 1px solid white; */
+            margin-right: 60%;
+            color: black;
+            font-size: 20px ;
+
+        }
+        .gambar4{
+            float: right;
+            margin-top: -34%;
+            margin-right: 9%;
+
+        }
+        .gambar5{
+            /* position: relative; */
+            /* border: 1px solid blue; */
+            z-index: -1;
+            margin-left: -199px;
+            /* margin-right: -15px; */
+            margin-top: -42%;
+           
+
+        }
+        .kalimat5{
+            position: relative;
+            bottom: -500px;
+            padding-left: 15%;
+            color:darkorange;
+            font-size: 100px;
+        }
+        .kalimat6{
+            position: absolute;
+            /* border: 1px solid white; */
+            /* position: absolute; */
+            margin-top:-28%;
+            padding-right: 75%;
+            margin-left: 17%;
+        }
+        .kalimat7{ 
+            position: absolute;
+            /* border: 3px solid blue; */
+            background-color: blue;
+            margin-right: 80%;
+            margin-left: 17%;
+            padding-left: -3px;
+            margin-top:-15%; 
+            color: white;
+
+
+        }
+        .futer{
+            /* position: relative; */
+            /* border: 1px solid red; */
+            /* background-color: white; */
+            text-align: inline;
+            bottom: -100px;
+            margin-left: -10px;
+            margin-right: -1%;
+            margin-top: 3%;
+            padding-left: 5%;
+            padding-bottom: 89px;
+
+            /* z-index: 1px; */
+
+        }
+        .futer1{
+            position: relative;
+            border-right:1px solid #a6a6a6;
+            margin-right: 90%;
+            color: darkblue;
+            /* float: left; */
+           
+            
+        }
+        .futer2{
+           position: relative;
+           border-right: 1px solid #a6a6a6;
+           margin-right: 79%;
+           padding-left: 11%;
+           margin-top: -1.2%;
+           color: darkblue;
+           
+           
+        }
+        .futer3{
+            position: relative;
+            border-right: 1px solid #a6a6a6;
+            margin-right: 69%;
+            padding-left: 22%;
+            margin-top: -1.4%;
+            color: darkblue;
+        }
+        .futer4{
+            position: relative;
+            border-right: 1px solid #a6a6a6;
+            margin-right: 63% ;
+            padding-left: 31.7%;
+            margin-top: -1.5%;
+            color: darkblue;
+        }
+        .futer5{
+            /* position: relative; */
+            /* border-right: 1px solid blue; */
+            margin-right: 49% ;
+            padding-left: 38%;
+            margin-top: -1.5%;
+            /* float: left; */
+            color: darkblue;
+        }
+        .futer6{
+            position: relative;
+            float: right;
+            padding-right: 17%;
+            margin-top: -2.4%;
+        }
+        .futer7{
+         position: relative;
+         float: right;
+         padding-right: 14%;
+         margin-top: -2.4%;
+        }
+        .akir{
+            color: #a6a6a6;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div class="heder">
+        <div class="turunan5"><img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/Voltaren_Logo_English_tagline_228x78.jpg?auto=format" alt="Voltaren" title="Voltaren"></div>
+        <div class="turunan6"><img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/desktop_home_2.png?auto=format" alt="GSK" title="GSK"></div>
+        <div class="turunan7"> <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/desktop_home_15.png?auto=format" alt="Search" title="Search"></div>
+        
+        <div  class="turunan">
+    <ul>
+        <div class="disain">memahami nyeri</div>
+        <div class="turunancon">
+        <li>apa itu nyeri?</li>
+        <li>tipologi nyeri</li>
+        <li>tubuh & oleraga</li>
+        <li>osteortritis</li>
+        <li>produk voltaren VS artis</li>
+        <li>pelajari tentang tubuh anda danperubahanyaseiring bertabanya usia</li>
+        <li>nyeri peradangan</li>
+        <li>yang perlu andah ketahui <br> tetang pereda nyeri </li>
+        <li>cara kerja voltaren</li>
+        </div>
+    </ul>
+    </div>
+    <div class="turunan2">
+           <ul>
+            <div class="disain2">WEBSATI UNAI</div>
+            <div class="turunancon2">
+            <li> <a href="https://unai.edu">WEBSITE UNAI</a></li>
+            <li><a href="https://fti.unai.edu">FTI UNAI</a></li>
+            <li>tentang nyeri pergelangan tangan</li>
+            <li>cari tahu tentang nyri <br>pergelangan tangan dan kaki </li>
+            <li>menjelaskan nyeri otot</li>
+            <li>pelajari tentang nyeri pinggul</li>
+            <li>menjelaskan tentang nyeri lutut</li>
+        </div>
+      </ul>
+    </div>
+    <div class="turunan3">
+        <ul>
+            <div class="disain3">BIODATA</div>
+            <div class="turunancon3"> 
+                <li><a href="biodata.html">data diri</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="turunan4">
+        <ul>
+            <div class="disain4">CONTA US</div>
+            <div class="turunancon4">
+                <li>Email: toguparasianlimbong98@gmail.com </li>
+                <li>NO: 082288776699</li>
+            </div>
+        </ul>
+    </div>
+</div> 
+<div class="gambar">
+   <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/desktop_home_3a.jpg?auto=format" alt="">
+</div>
+<div class="kalimat1">
+    <h3>Temukan voltaren</h3>
+</div>
+<div class="kalimat2">
+    <h1>Temukan kemballi kegembiraan</h1>
+</div>
+<div class="kalimat3">
+    <p>saat nyeri tubu menghentikan Anda bergerak bebas, Kekembiraan hidup terasa sedikit hilang. Saat itulah pumulian dengan voltaren 
+       yang telah di percaya dapat membantu meringankan nyeri dan membuat anda bargerak kembali 
+    </p>
+</div>
+<div class="kalimat4">
+    <p>Memahami Nyeri</p>
+</div>
+<!-- gambar pertama  kontern kedua -->
+<div class="gambar1">
+    <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/desktop_home_8j.jpg?auto=format" alt=""><br>
+    <div class="tulis">cara menggunakan voltaren Emulgen untuk meringankan nyeri osteorosis</div>
+    <div class="tulis2"><p>
+        Osteoartritis adalah salah satu penyebab nyeri sendi yang paling umum. Berikut ini penjelasan bagaimana Voltaren Emulgel dapat membantu meredakan nyeri yang berkaitan dengan osteoartritis.
+    </p></div>
+</div>
+<!-- gambar dua kontern ke dua -->
+<div class="gambar2">
+    <div class="tulisatas">
+        <div id ="tulis3" class="tulisatas2">Definisi dan Klasifikasi Rasa Nyeri</div> <br>
+    Mengapa rasa nyeri terjadi? Memahami pengertian dari rasa nyeri dan beberapa alasan kenapa seseorang mengalami rasa nyeri dengan cara yang berbeda-beda.</div>
+   <div class="gambarII"><img class="short_article_wide_image visible-md-inline-block visible-lg-inline-block" src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/desktop_home_8c.jpg?auto=format" alt=" " title=" "></div> 
+</div>
+<!-- gambar tiga kontern ke dua -->
+<div class="gambar3">
+    <img class="short_article_wide_image component-content visible-md-inline-block visible-lg-inline-block" src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/Learn%20more/DT/desktop_home_8n.jpg?auto=format" alt=" " title=" ">
+    <div>
+        Apa itu nyeri?
+    </div>
+    <div class="tulis3">
+        <p>Dapatkan pemahaman lebih baik mengapa tubuh kita merasakan sensasi nyeri dan hal-hal yang menyebabkan nyeri pada tubuh.</p>
+    </div>
+</div>
+<div class="gambar4">
+    <img class="visible-md-inline-block visible-lg-inline-block" src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/desktop/homepage/What-is-pain_200x165.jpg?auto=format" alt="88% orang di dunia merasakan nyeri tubuh" title="88% orang di dunia merasakan nyeri tubuh">
+   </div>
+<div class="gambar5">
+    <div class="kalimat5">
+        <p>ketahui <br> penanganan <br> yang tepat</p>
+    </div>
+    <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/in_ID/tablet/pains_and_treatments_detail_pages/tablet_pain_1b.jpg?auto=format" alt=" ">
+    <div class="kalimat6">
+        <p>Temukan bagaimana berbagai jenis produk Voltaren meredakan nyeri secara efektif dengan menarget pada sumber nyeri untuk membantu Anda menemukan kembali kegembiraan bergerak.</p>
+    </div>
+    <div class="kalimat7">
+       <p> Obati nyeri Anda</p>
+    </div>
+</div>
+<div class="futer">
+    <div class="futer1">kebijakan vrivasi</div>
+    <div class="futer2">Syarat penggunaan</div>
+    <div class="futer3">kebijakan cookie</div>
+    <div class="futer4">peta situs</div>
+    <div class="futer5">hubungi kami</div>
+    <div>
+        <div class="futer6">ikuti kami
+           
+         </div>
+         <div class="futer7">
+            <i class="fas fa-youtube"></i>
+            <i class="material-icons">facebook</i>
+         </div>
+    </div>
+    <div>
+        <p><br>
+            ©2001-2020 Grup perusahaan GSK. Semua hak dilindungi oleh undang-undang. <br>
+            Glaxo Smith Kline plc. Terdaftar di Inggris dan Wales No. 3888792. <br>
+            Situs ini ditujukan hanya untuk pengguna di Indonesia. Trade marks are owned by or licensed to the GSK group of companies.
+      
+        </p>
+    </div><br><br>
+    <div>
+        <p>
+            PM-ID-VOLT-20-00053
+        </p>
+    </div>
+
+</div>
+</body>
+</html>
